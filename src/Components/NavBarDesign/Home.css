@@ -38,11 +38,12 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-  }
+  } 
   
   .desing > .elements > .shape-1 {
     width: 0px;
     height: 75%;
+
     opacity: 1;
     border: 7.3rem solid #7cf5f7;
     border-radius: 2%;
