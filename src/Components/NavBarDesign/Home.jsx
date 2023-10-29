@@ -1,39 +1,42 @@
-import React from 'react'
-import './Home.css'
+import React from "react";
+import "./Home.css";
+import Animation from "../Animation/Animation";
 
 function Home() {
   return (
     <div>
-       <section class="landing-pg">
-      <div class="blur"></div>
-      <div class="content">
-        <div class="desing">
-          <div class="elements">
-            <div class="shape-1"></div>
-            <div class="model">
-              <img
-                src="./assets/banner1.png"
-              />
+      <section class="landing-pg">
+        <div class="blur"></div>
+        <div class="content">
+          <div class="desing">
+            <div class="elements">
+              <div class="shape-1"></div>
+              <div class="model">
+                {/* <img src="./assets/banner1.png" /> */}
+                <Animation />
+              </div>
+              <div class="shape-2"></div>
             </div>
-            <div class="shape-2"></div>
           </div>
-        </div>
-        <div class="text">
-          <span>
-            Build The Skills<br />
-            To Drive Your Career.
-          </span>
-          <p>
-            No.1 software training institute in Coimbatore and Erode. providing
-            100% Placement Support to student both Freshers and Experienced
-            Student's.
-          </p>
-          <div class="button">
-            <button type="button" class="btn">Explore course</button>
+          <div class="text">
+            <span>
+              Build The Skills
+              <br />
+              To Drive Your Career.
+            </span>
+            <p>
+              No.1 software training institute in Coimbatore and Erode.
+              providing 100% Placement Support to student both Freshers and
+              Experienced Student's.
+            </p>
+            <div class="button">
+              <button type="button" class="btn">
+                Explore course
+              </button>
+            </div>
           </div>
-        </div>
 
-        {/* <div class="card">
+          {/* <div class="card">
           <img
             src="./img/c30427_6472357e0136470da7a195a78a6f032d~mv2.webp"
             class="card-img-top"
@@ -112,10 +115,10 @@ function Home() {
             </div>
           </div>
         </div> */}
-      </div>
-    </section>
+        </div>
+      </section>
     </div>
-  )
+  );
 }
 
 export default Home;
