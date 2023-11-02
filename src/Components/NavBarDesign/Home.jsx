@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 import Animation from "../Animation/Animation";
+import WhyChoose from "./WhyChoose/WhyChoose";
+import CourseBanner from "./Courses/CourseBanner";
+import CourseDetails from "./Courses/CourseDetails";
 
 function Home() {
   return (
@@ -36,6 +39,8 @@ function Home() {
             </div>
           </div>
 
+
+          
           {/* <div class="card">
           <img
             src="./img/c30427_6472357e0136470da7a195a78a6f032d~mv2.webp"
@@ -117,6 +122,9 @@ function Home() {
         </div> */}
         </div>
       </section>
+      <CourseBanner></CourseBanner>
+      <WhyChoose></WhyChoose>
+      <CourseDetails></CourseDetails>
     </div>
   );
 }

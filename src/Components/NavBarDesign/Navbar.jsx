@@ -28,7 +28,7 @@ function Navbar() {
                         <Link className='nav-link' to='/testimonial'>Testimonial</Link>
                         <Link className='nav-link' to='/contact'>Contact</Link> */}
                     </div>
-                    <h1 className="logo tracking-in-expand">Nurture - InfoTech</h1>
+                    <h1 className="logo tracking-in-expand">Nurture InfoTech</h1>
                 </div>
             </nav>
         </div>

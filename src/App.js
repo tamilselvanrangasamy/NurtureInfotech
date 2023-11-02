@@ -6,7 +6,7 @@ import Animation from "./Components/Animation/Animation";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Navbar></Navbar>
 
