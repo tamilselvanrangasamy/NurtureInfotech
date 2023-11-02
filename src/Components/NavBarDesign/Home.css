@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: linear-gradient(-10deg, #0f1473, #0b0b75);
+  /* background-image: linear-gradient(-10deg, #0f1473, #0b0b75); */
   position: relative;
 }
 
@@ -12,7 +12,7 @@
   position: absolute;
   filter: blur(100px);
   opacity: 0.6;
-  background-image: linear-gradient(100deg, transparent, #000000);
+  /* background-image: linear-gradient(100deg, transparent, #000000); */
 }
 
 .content {
