@@ -19,10 +19,18 @@ const About = () => {
           />
         </div>
         <div className="About_Info">
-          <div className="About_Animation">
+          <div
+            className="About_Animation"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <Animation className="About_inner" />
           </div>
-          <div className="About_us">
+          <div
+            className="About_us"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <div>
               <h2>About Us</h2>
             </div>
