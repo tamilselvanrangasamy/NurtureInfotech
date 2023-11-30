@@ -1,108 +1,176 @@
 .WCMain {
-    min-height: 100vh;
-    /* height: 230vh; */
-    width: 100%;
+  min-height: 100vh;
+  /* height: 230vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+ 
 }
 
 .WCHead {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 2.4rem;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2.4rem;
 }
 
 .mainFrame {
-    /* border: 2px solid; */
-    padding-top: 50px;
-    width: 80%;
-    height: 750px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+  /* border: 2px solid; */
+
+  padding-top: 50px;
+  width: 80%;
+  height: 750px;
+  margin: auto;
+
+
 }
 
 .WCrow {
-    display: flex;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 80%;
-    margin: 5%;
-    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 80%;
+  margin: 100px;
+}
+
+.WCcard {
+  width: 400px;
+  margin: 30px auto;
+  height: 400px;
+  transition: all 0.4s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.705);
+  font-size: 1.5rem;
+  font-weight: 600;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+  
+}
+
+.WCcard:hover {
+  border-radius: 15px;
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.705);
+  background: rgb(103, 151, 255);
+}
+
+.WCfirst-content {
+  height: 100%;
+  width: 100%;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.WCcard:hover .WCfirst-content {
+  height: 0px;
+  opacity: 0;
+}
+
+.WCsecond-content {
+  height: 0%;
+  width: 100%;
+  opacity: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  transition: all 0.4s;
+  font-size: 0px;
+  transform: rotate(90deg) scale(-1);
+}
+
+.WCcard:hover .WCsecond-content {
+  opacity: 1;
+  height: 100%;
+  font-size: 1.8rem;
+  transform: rotate(0deg);
+}
+
+.WCCard_image {
+  padding: 10px;
+  height: 250px;
+  width: 400px;
+}
+
+.WCCard_image>img {
+  height: 100%;
+  width: 100%;
+}
+
+@media all and (min-width:1400px) {
+  .WCMain {
+    margin-left: 5%;
+  }
 
 }
 
+@media all and (max-width:1400px) {
 
-.WCcard {
-    margin: 30px;
-    position: relative;
-    width: 250px;
-    height: 314px;
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    padding: 12px;
-    gap: 12px;
-    border-radius: 8px;
-    cursor: pointer;
+  .WCcard {
+    width: 300px;
+    height: 350px;
+    font-size: 1.35rem;
+    font-weight: 500;
   }
-  
-  .WCcard::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    left: -5px;
-    margin: auto;
-    width: 260px;
-    height: 330px;
-    border-radius: 10px;
-    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
-    z-index: -10;
-    pointer-events: none;
-    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  .WCCard_image {
+    height: 230px;
+    width: 300px;
   }
-  
-  .WCcard::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
-    transform: translate3d(0, 0, 0) scale(0.95);
-    filter: blur(20px);
+
+}
+
+@media all and (max-width:1200px) {}
+
+@media all and (max-width:1024px) {
+
+
+}
+
+@media all and (max-width:768px) {
+
+  .WCrow {
+    width: auto;
+
   }
-  
-  .heading {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
-  }
-  
-  .WCcard p:not(.heading) {
-    font-size: 14px;
-  }
-  
-  .WCcard p:last-child {
-    color: #fff;
-    text-align: justify;
+
+  .WCcard {
+    width: 300px;
+    height: 300px;
     font-size: 1.1rem;
-    
   }
-  
-  .WCcard:hover::after {
-    filter: blur(30px);
+
+  .WCCard_image {
+    height: 250px;
+    width: 300px;
   }
-  
-  .WCcard:hover::before {
-    transform: rotate(-90deg) scaleX(1.34) scaleY(0.77);
-  }
-  
-  .WCcard > h2
-  {
-    color: #00dbde;
-    align-items: center;
-    /* background-color: red; */
-  }
-  p
-  {
+}
+
+@media all and (max-width:540px) {
+  .WCrow {
+    width: auto;
     font-size: 1.2rem;
+
   }
+
+  .WCcard {
+    min-width: 300px;
+    height: 300px;
+  }
+  .WCCard_image
+  {
+    height: 200px;
+    width: 250px;
+  }
+}

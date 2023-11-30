@@ -7,26 +7,61 @@ function WhyChoose() {
                 <h1 className='WCHead'> Why to Choose Nuture Infotech ?</h1>
                 <div className='WCrow'>
                     <div class="WCcard">
-                        <h2 >EXPERIENCED TRAINERS</h2>
-
-                        <p>The trainers here are certified working professionals, with years of experience in the industry. Get maximum benefits from their vast knowledge of the subject. </p>
-                        
+                        <div class="WCfirst-content">
+                            <span>EXPERIENCED TRAINERS</span>
+                            <div className='WCCard_image'>
+                            <img src='./assets/images/trainers.jpg'></img>
+                            </div>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
                     </div>
                     <div class="WCcard">
-                        <h2 >EXPERIENCED TRAINERS</h2>
-
-                        <p>The trainers here are certified working professionals, with years of experience in the industry. Get maximum benefits from their vast knowledge of the subject. </p>
-                        
+                        <div class="WCfirst-content">
+                            <span>First</span>
                         </div>
-                        <div class="WCcard">
-                        <h2 >EXPERIENCED TRAINERS</h2>
-
-                        <p>The trainers here are certified working professionals, with years of experience in the industry. Get maximum benefits from their vast knowledge of the subject. </p>
-                        
+                        <div class="WCsecond-content">
+                            <span>Second</span>
                         </div>
+                    </div>
+                    <div class="WCcard">
+                        <div class="WCfirst-content">
+                            <span>First</span>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">    
+                        <div class="WCfirst-content">
+                            <span>First</span>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">    
+                        <div class="WCfirst-content">
+                            <span>First</span>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">    
+                        <div class="WCfirst-content">
+                            <span>First</span>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                   
                 </div>
-            </div>    
                 
+            </div>
+
         </div>
     )
 }
