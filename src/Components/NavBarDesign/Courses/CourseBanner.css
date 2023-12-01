@@ -1,4 +1,18 @@
 .courseBanner{
-    background-color: aliceblue;
+   
     height: 300px;
+    background: linear-gradient(45deg,rgb(1, 1, 47), rgb(8, 8, 215), #23a6d5, #23d2d5,#7623d5,#5e23d5,#2367d5,rgb(8, 8, 215),rgb(1, 1, 47));
+    /* background: linear-gradient(135deg,rgb(1, 1, 47),rgb(1, 1, 129),rgb(24, 24, 203),rgb(15, 76, 191),rgb(24, 24, 203),rgb(1, 1, 129),rgb(1, 1, 47)); */
+    /*  #ff8a00, #e52e71, #8a2be2, #8a2be2,#e52e71,#ff8a00 */
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+
 }

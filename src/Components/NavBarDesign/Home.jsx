@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Animation from "../Animation/Animation";
+
 import WhyChoose from "./WhyChoose/WhyChoose";
 import CourseBanner from "./Courses/CourseBanner";
 import CourseDetails from "./Courses/CourseDetails";
