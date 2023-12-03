@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 import Animation from "../Animation/Animation";
+import SoftwareDevelopment from "../Animation/Software_development";
+import Graphic from "../Animation/GraphicDesign";
+import WebDevelopment from "../Animation/WebDevelopment";
 
 const About = () => {
   return (
@@ -65,21 +68,51 @@ const About = () => {
           </div>
           <div className="Aspiration_card">
             <div class="book">
-              <p>Hello</p>
+              <p>
+                Software development is the process of designing, coding,
+                testing, and maintaining software applications to meet specific
+                needs. It involves a systematic approach and employs various
+                tools and methodologies to create functional and efficient
+                solutions.
+              </p>
               <div class="cover">
-                <p>Hover Me</p>
+                <p className="about_icon">
+                  {" "}
+                  <SoftwareDevelopment className="About_inner" />
+                </p>
+                <h3 className="cover_head">Software Development</h3>
               </div>
             </div>
             <div class="book">
-              <p>Hello</p>
+              <p>
+                Graphic design is the art of visually communicating ideas
+                through the use of typography, imagery, and layout. Graphic
+                designers create visually appealing content for both print and
+                digital media to convey messages effectively.
+              </p>
               <div class="cover">
-                <p>Hover Me</p>
+                <p className="about_icon">
+                  {" "}
+                  <Graphic className="About_inner" />
+                </p>
+                <h3 className="cover_head">Graphic Design</h3>
               </div>
             </div>
             <div class="book">
-              <p>Hello</p>
+              <p>
+                Web development is the creation and maintenance of websites and
+                web applications. It encompasses coding, design, and structuring
+                elements using languages like HTML, CSS, and JavaScript. Web
+                developers ensure functionality and a positive user experience,
+                addressing both frontend and backend aspects for a seamless
+                online presence.
+              </p>
               <div class="cover">
-                <p>Hover Me</p>
+                <p className="about_icon">
+                  {" "}
+                  <WebDevelopment className="About_inner" />
+                </p>
+                <h3 className="cover_head">Web Development</h3>
               </div>
             </div>
           </div>

@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
 .About_Main {
+  /* font-family: "Josefin Sans", sans-serif; */
   font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
   overflow-x: hidden;
 }
 .About {
@@ -89,9 +92,6 @@
   }
 }
 
-.Aspiration {
-  height: 100vh;
-}
 .Aspiration_head {
   margin-top: 5%;
   text-align: center;
@@ -132,9 +132,10 @@
 .cover {
   top: 0;
   position: absolute;
-  background-color: lightgray;
+  background-color: rgb(238, 234, 234);
   width: 100%;
   height: 100%;
+  font-size: 1.3rem;
   border-radius: 10px;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -149,10 +150,10 @@
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .book:hover .cover {
@@ -172,6 +173,9 @@ p {
   .About_head {
     left: 20%;
   }
+  .Aspiration_head {
+    margin-top: 13%;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -187,13 +191,37 @@ p {
   }
 
   .About_us {
-    width: 100%;
-    height: 500px;
+    width: 80%;
+    gap: 20px;
+    height: cover;
   }
 }
 
-/* @media all and (max-width: 1200px) {
-  .Aspiration_card {
-    flex-wrap: wrap;
+@media all and (max-width: 1200px) {
+  .book {
+    width: 30%;
   }
-} */
+}
+
+@media all and (max-width: 920px) {
+  .Aspiration_card {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  .book {
+    width: 60%;
+  }
+}
+
+.about_icon {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.cover_head {
+  position: absolute;
+  top: 350px;
+}
