@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-
+import Animation from "../Animation/Animation";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import CourseBanner from "./Courses/CourseBanner";
 import CourseDetails from "./Courses/CourseDetails";
@@ -14,7 +14,7 @@ function Home() {
           <div className="mainHeader">
             <h1>Most-Leading and Trusted Training Institute</h1>
             <span id="banner_text">Get trained, Work on live projects and get hired.</span>
-            <div style={{width:"100%",marginBottom:"20px"}}>
+            <div style={{width:"100%",marginBottom:"20px", marginTop: "20px"}}>
               <button className="Homebutton" >
                 Explore Courses
               </button>

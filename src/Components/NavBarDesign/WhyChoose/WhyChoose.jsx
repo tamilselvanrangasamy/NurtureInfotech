@@ -8,9 +8,53 @@ function WhyChoose() {
                 <div className='WCrow'>
                     <div class="WCcard">
                         <div class="WCfirst-content">
-                            <span>EXPERIENCED TRAINERS</span>
+                            <span>Experienced Trainners</span>
                             <div className='WCCard_image'>
-                            <img src='./assets/images/trainers.jpg'></img>
+                                <img src='./assets/images/trainers1.jpg' ></img>
+                            </div>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">
+                        <div class="WCfirst-content">
+                            <span>Flexiable Timing</span>
+                            <div className='WCCard_image'>
+                                <img src='./assets/images/flexibleTraining.jpg' ></img>
+                            </div>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">
+                        <div class="WCfirst-content">
+                            <span>Placement Assisance</span>
+                            <div className='WCCard_image'>
+                                <img src='./assets/images/placement.jpg' ></img>
+                            </div>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">
+                        <div class="WCfirst-content">
+                            <span>Workin Live Project</span>
+                            <div className='WCCard_image'>
+                                <img src='./assets/images/liveproject.jpg' ></img>
+                            </div>
+                        </div>
+                        <div class="WCsecond-content">
+                            <span>Second</span>
+                        </div>
+                    </div>
+                    <div class="WCcard">
+                        <div class="WCfirst-content">
+                        <span>Cost</span>
+                            <div className='WCCard_image'>
+                                <img src='./assets/images/cost.jpg' ></img>
                             </div>
                         </div>
                         <div class="WCsecond-content">
@@ -25,41 +69,9 @@ function WhyChoose() {
                             <span>Second</span>
                         </div>
                     </div>
-                    <div class="WCcard">
-                        <div class="WCfirst-content">
-                            <span>First</span>
-                        </div>
-                        <div class="WCsecond-content">
-                            <span>Second</span>
-                        </div>
-                    </div>
-                    <div class="WCcard">    
-                        <div class="WCfirst-content">
-                            <span>First</span>
-                        </div>
-                        <div class="WCsecond-content">
-                            <span>Second</span>
-                        </div>
-                    </div>
-                    <div class="WCcard">    
-                        <div class="WCfirst-content">
-                            <span>First</span>
-                        </div>
-                        <div class="WCsecond-content">
-                            <span>Second</span>
-                        </div>
-                    </div>
-                    <div class="WCcard">    
-                        <div class="WCfirst-content">
-                            <span>First</span>
-                        </div>
-                        <div class="WCsecond-content">
-                            <span>Second</span>
-                        </div>
-                    </div>
-                   
+
                 </div>
-                
+
             </div>
 
         </div>

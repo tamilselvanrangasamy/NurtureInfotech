@@ -5,9 +5,11 @@
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
- 
 }
-
+.WCfirst-content span
+{
+  text-transform: capitalize;  
+}
 .WCHead {
   text-align: center;
   padding-top: 20px;
@@ -48,7 +50,7 @@
   background: #fff;
   box-shadow: 15px 15px 30px #bebebe,
              -15px -15px 30px #ffffff;
-  
+
 }
 
 .WCcard:hover {
@@ -100,7 +102,7 @@
 .WCCard_image {
   padding: 10px;
   height: 250px;
-  width: 400px;
+  width: 250px;
 }
 
 .WCCard_image>img {
@@ -112,7 +114,7 @@
   .WCMain {
     margin-left: 5%;
   }
-
+ 
 }
 
 @media all and (max-width:1400px) {
@@ -121,17 +123,27 @@
     width: 300px;
     height: 350px;
     font-size: 1.35rem;
-    font-weight: 500;
+    font-weight: 500;    
+
+
   }
 
   .WCCard_image {
-    height: 230px;
-    width: 300px;
+    height: 220px;
+    width: 200px;
   }
 
 }
 
-@media all and (max-width:1200px) {}
+@media all and (max-width:1200px) {
+  
+
+  .WCCard_image {
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+  }
+}
 
 @media all and (max-width:1024px) {
 
@@ -170,7 +182,8 @@
   }
   .WCCard_image
   {
-    height: 200px;
-    width: 250px;
+    height: 180px;
+    width: 220px;
   }
+  
 }
