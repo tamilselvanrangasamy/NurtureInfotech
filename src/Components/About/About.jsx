@@ -58,6 +58,33 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div>
+        <div className="Aspiration">
+          <div className="Aspiration_head">
+            <h1>Our Aspirations</h1>
+          </div>
+          <div className="Aspiration_card">
+            <div class="book">
+              <p>Hello</p>
+              <div class="cover">
+                <p>Hover Me</p>
+              </div>
+            </div>
+            <div class="book">
+              <p>Hello</p>
+              <div class="cover">
+                <p>Hover Me</p>
+              </div>
+            </div>
+            <div class="book">
+              <p>Hello</p>
+              <div class="cover">
+                <p>Hover Me</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
