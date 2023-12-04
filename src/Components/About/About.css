@@ -169,6 +169,126 @@ p {
   font-weight: bolder;
 }
 
+.cube-container {
+  width: 200px;
+  height: 200px;
+  perspective: 800px;
+  margin: 50px auto;
+}
+
+.cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate 8s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 200px;
+  background: transparent;
+  opacity: 0.9;
+  border: 2px solid;
+  border-image: linear-gradient(
+      to right,
+      #6bbcff,
+      #7d3564,
+      #91c169,
+      #9bcf16,
+      rgb(31, 136, 165)
+    )
+    1;
+  box-shadow: 0 0 100px rgba(8, 146, 245, 0.8);
+}
+
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+.cube-container:hover .cube {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+.Mission {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  height: cover;
+}
+
+.Mission_content {
+  width: 50%;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.Mission_head {
+  font-size: 3.9rem;
+}
+
+.Mission_para {
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+
+.Vision {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-evenly;
+  height: cover;
+}
+
+.Vision_content {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.Vision_head {
+  font-size: 3.9rem;
+}
+
+.Vision_para {
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
 @media all and (max-width: 540px) {
   .About_head {
     left: 20%;
@@ -194,6 +314,29 @@ p {
     width: 80%;
     gap: 20px;
     height: cover;
+  }
+
+  .Mission {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 80px;
+  }
+  .Mission_content {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Vision {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  .Vision_content {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 
