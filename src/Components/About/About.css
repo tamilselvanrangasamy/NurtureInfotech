@@ -338,6 +338,15 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .about_icon {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+  }
+  .book {
+    height: 300px;
+  }
 }
 
 @media all and (max-width: 1200px) {
@@ -354,17 +363,26 @@ p {
   }
   .book {
     width: 60%;
+    height: 500px;
+  }
+  .about_icon {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: -12%;
+  }
+
+  .cover_head {
+    margin-top: 23%;
   }
 }
-
 .about_icon {
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 0;
 }
 
 .cover_head {
   position: absolute;
-  top: 350px;
+  top: 320px;
 }
