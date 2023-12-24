@@ -344,9 +344,6 @@ p {
     position: absolute;
     top: 75px;
   }
-  .book {
-    height: 300px;
-  }
 }
 
 @media all and (max-width: 1200px) {
