@@ -1,7 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
 .About_Main {
+  /* font-family: "Josefin Sans", sans-serif; */
   font-family: "Josefin Sans", sans-serif;
+  font-weight: lighter;
+  overflow-x: hidden;
 }
 .About {
   position: relative;
@@ -15,32 +19,6 @@
 .AboutImg_size {
   height: 200px;
   width: 100%;
-}
-
-@media all and (max-width: 540px) {
-  .About_head {
-    left: 20%;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .About_head {
-    left: 42%;
-  }
-  .About_Info {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 1200px;
-  }
-  .About_Animation {
-    width: 100px;
-  }
-  .About_us {
-    width: 100%;
-    height: 500px;
-  }
 }
 
 .About_Info {
@@ -62,6 +40,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   width: 80%;
+  padding-right: 3%;
 }
 
 .About_Info_head {
@@ -111,4 +90,299 @@
   .btn-donate {
     transition: linear;
   }
+}
+
+.Aspiration_head {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.Aspiration_card {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 20%;
+  height: 400px;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: rgb(238, 234, 234);
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+}
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.cube-container {
+  width: 200px;
+  height: 200px;
+  perspective: 800px;
+  margin: 50px auto;
+}
+
+.cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: rotate 8s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  line-height: 200px;
+  background: transparent;
+  opacity: 0.9;
+  border: 2px solid;
+  border-image: linear-gradient(
+      to right,
+      #6bbcff,
+      #7d3564,
+      #91c169,
+      #9bcf16,
+      rgb(31, 136, 165)
+    )
+    1;
+  box-shadow: 0 0 100px rgba(8, 146, 245, 0.8);
+}
+
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+.cube-container:hover .cube {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateX(0) rotateY(0) rotateZ(0);
+  }
+
+  100% {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+.Mission {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  height: cover;
+}
+
+.Mission_content {
+  width: 50%;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.Mission_head {
+  font-size: 3.9rem;
+}
+
+.Mission_para {
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+
+.Vision {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-evenly;
+  height: cover;
+}
+
+.Vision_content {
+  width: 50%;
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+.Vision_head {
+  font-size: 3.9rem;
+}
+
+.Vision_para {
+  font-size: 1.5rem;
+  margin-top: 2%;
+}
+@media all and (max-width: 540px) {
+  .About_head {
+    left: 20%;
+  }
+  .Aspiration_head {
+    margin-top: 13%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .About_head {
+    left: 42%;
+  }
+  .About_Info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 1200px;
+  }
+
+  .About_us {
+    width: 80%;
+    gap: 20px;
+    height: cover;
+  }
+
+  .Mission {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 80px;
+  }
+  .Mission_content {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Vision {
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  .Vision_content {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .about_icon {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+  }
+  .book {
+    height: 300px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .book {
+    width: 30%;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .Aspiration_card {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  .book {
+    width: 60%;
+    height: 500px;
+  }
+  .about_icon {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: -12%;
+  }
+
+  .cover_head {
+    margin-top: 23%;
+  }
+}
+.about_icon {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.cover_head {
+  position: absolute;
+  top: 320px;
 }
