@@ -9,7 +9,38 @@
 }
 .About {
   position: relative;
+  height: 150px;
+  background: linear-gradient(
+    45deg,
+    rgb(1, 1, 47),
+    rgb(8, 8, 215),
+    #23a6d5,
+    #23d2d5,
+    #7623d5,
+    #5e23d5,
+    #2367d5,
+    rgb(8, 8, 215),
+    rgb(1, 1, 47)
+  );
+  /* background: linear-gradient(135deg,rgb(1, 1, 47),rgb(1, 1, 129),rgb(24, 24, 203),rgb(15, 76, 191),rgb(24, 24, 203),rgb(1, 1, 129),rgb(1, 1, 47)); */
+  /*  #ff8a00, #e52e71, #8a2be2, #8a2be2,#e52e71,#ff8a00 */
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s infinite;
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.About_Content {
+  margin-top: 4%;
+}
+
 .About_head {
   top: 30%;
   left: 45%;
@@ -247,6 +278,7 @@ p {
 }
 
 .Mission {
+  position: relative;
   margin-top: 10%;
   display: flex;
   justify-content: space-evenly;
@@ -260,12 +292,14 @@ p {
 }
 
 .Mission_head {
+  position: absolute;
+  left: 47.6%;
   font-size: 3.9rem;
 }
 
 .Mission_para {
   font-size: 1.5rem;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 .Vision {
@@ -277,12 +311,15 @@ p {
 
 .Vision_content {
   width: 50%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-left: 6%;
 }
 
 .Vision_head {
   font-size: 3.9rem;
+  position: absolute;
+  left: 0;
+  margin-left: 5.7%;
 }
 
 .Vision_para {
@@ -296,11 +333,26 @@ p {
   .Aspiration_head {
     margin-top: 13%;
   }
+  .Mission_head {
+    font-size: 3.5rem;
+    margin-left: -20px;
+  }
+  .Vision_head {
+    font-size: 3.3rem;
+    text-align: center;
+    width: 100%;
+    padding-right: 40%;
+  }
 }
-
+/* @media all and (max-width: 625px) {
+  .Mission_head {
+    
+    left: 190px;
+  }
+} */
 @media all and (max-width: 768px) {
   .About_head {
-    left: 42%;
+    left: 40%;
   }
   .About_Info {
     flex-direction: column;
@@ -317,7 +369,7 @@ p {
   }
 
   .Mission {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     gap: 80px;
   }
@@ -327,17 +379,29 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .Mission_head {
+    top: -40px;
+    left: 20%;
+  }
+  .Vision_head {
+    top: 0px;
+    margin-left: 25%;
+  }
   .Vision {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+    position: relative;
+    margin-top: 15%;
     gap: 80px;
   }
   .Vision_content {
     width: 80%;
     text-align: center;
     display: flex;
+    margin-top: 15%;
     flex-direction: column;
   }
+
   .about_icon {
     text-align: center;
     width: 100%;
