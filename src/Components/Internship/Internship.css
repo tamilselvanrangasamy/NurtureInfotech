@@ -5,9 +5,9 @@
     
 }
 .internship-content{
-    /* border: 1px solid green; */
-    height: 850px;
-    width: 1330px;
+    border: 1px solid green;
+    margin: auto ;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     
@@ -15,9 +15,9 @@
 .content{
     height: 300px;
     width: 700px;
-    /* border: 1px solid; */
-    margin-top: 300px;
-    margin-right: 200px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
     /* text-align: center; */
 }
 .content-heading{
@@ -29,16 +29,11 @@
 
 }
 .internship-img{
-    /* border: 1px solid; */
-    position: absolute;
-    left: 850px;
-    /* bottom: 180px; */
-    height: 850px;
-    width: 1000px;
+ background-color: red;  
 }
 .img{
-    height: 850px;
-    width: 1000px;
+    height:100%;
+    width: 100%;
 }
 .internship-bgc{
     /* border: 1px solid blue; */

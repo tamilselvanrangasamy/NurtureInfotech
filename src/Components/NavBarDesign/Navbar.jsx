@@ -64,9 +64,9 @@ function Navbar() {
                     <div className="menu-items">
                         <Link className='nav-link' to='/'>Home</Link>
                         <Link className='nav-link' to='/about'>About</Link>
-                        <Link className='nav-link' to='/category'>Courses</Link>
-                        <Link className='nav-link' to='/category'>Internship</Link>
-                        <Link className='nav-link' to='/category'>JOB offers</Link>
+                        <Link className='nav-link' to='/intern'>Courses</Link>
+                        <Link className='nav-link' to='/intern'>Internship</Link>
+                        <Link className='nav-link' to='/category'>Hiring</Link>
                         <Link className='nav-link' to='/category'>Gallery</Link>
                         <Link className='nav-link' to='/category'>Enquiry</Link>
                         <Link className='nav-link' to='/category'>Contact Us</Link>
