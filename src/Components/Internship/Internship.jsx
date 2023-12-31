@@ -37,7 +37,7 @@ const Internship = () => {
           <button class="btn">
     Join us
 </button><br></br>
-          <h1>Intern with Nurture Infotech </h1><br></br>
+          <h1>Intern with Nurture technology</h1><br></br>
           <h2>"Embark on a journey of learning and growth with Nurture Infotech's internship program. Here, we don't just offer opportunities; we cultivate future leaders, nurture innovation, and sow the seeds of success. Join us, where internships become the bridge between potential and achievement. Your professional evolution starts here at Nurture Infotech."</h2>
         </div>
         </div>       
