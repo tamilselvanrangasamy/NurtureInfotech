@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.n{
+    /* border :1px solid red; */
+    display: flex;
+    
+}
+.internship-content{
+    border: 1px solid green;
+    margin: auto ;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    height: 300px;
+    width: 700px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.content-heading{
+    font-size: .8rem;
+    
+}
+.content-sub{
+    font-size: 2rem;
+
+}
+.internship-img{
+ background-color: red;  
+}
+.img{
+    height:100%;
+    width: 100%;
+}
+.internship-bgc{
+    /* border: 1px solid blue; */
+    height: 850px;
+    width: 600px;
+    background-color: #11009E;
+}
+
+.cards{
+    /* border: 1px solid red; */
+    margin: 100px 0px;
+}
+.c-content{
+    display: flex;
+    justify-content: center;
+}
+.card-content{
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 550px;
+    padding-top: 70px;
+    margin:50px 100px;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #ffedd3;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s ease;
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffc506;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  color: #1e1e2b;
+  transition-delay: .5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #ffc506;
+  transition: .4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+.card-image{
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 550px;
+    margin: 50px 100px;
+}
+.c-img1{
+    height: 450px;
+    width: 550px;
+}
