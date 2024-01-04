@@ -223,7 +223,7 @@ header {
     }
 
     .navbar .menu-items .nav-link:hover {
-        color: purple;
+        color: purple;      
     }
 
     .logo {
@@ -366,4 +366,53 @@ header {
     {
         display: none;
     }
+}
+.icons 
+{
+	/* height: 100px; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.icons div
+{
+	background-color:#0f1473;
+	height: 30px;
+	width: 30px;
+	border-radius:50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:7px;
+	margin: 3px;
+}
+#svg-icons
+{
+	height: 100%;
+	width: 100%;
+	transition: 400ms;
+}
+.facebk:hover {
+	background-color: rgb(44, 74, 222);
+}
+.instag:hover {
+	background-color: rgb(237, 71, 198);
+}
+.linked:hover {
+	background-color: #001eff;
+}
+.twitter:hover {
+	background-color: rgb(91, 214, 255);
+}
+.wats:hover {
+	background-color: #075e54;
+}
+.icons div:hover
+{
+	cursor:pointer;
+}
+.icons div:hover svg
+{
+	color: white;
+	transform: rotate(360deg);
 }
