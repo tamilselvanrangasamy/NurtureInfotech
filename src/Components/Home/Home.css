@@ -77,20 +77,6 @@
   }
 
 }
-
-@media all and (max-width:1200px) {
-  .bannerImg {
-    display: flex;
-    width: 100%;
-    /* background-color: green; */
-  }
-
-  .bannerImg_size {
-    height: 500px;
-  }
-
-}
-
 @media all and (max-width:1024px) {
 
   .bannerImg_size {
