@@ -61,6 +61,10 @@ h1 {
     margin-left: 10px;
     
 }
+.footerIcons{
+    padding-left: 10px;
+}
+
 .icons 
 {
 	/* height: 100px; */
@@ -70,7 +74,8 @@ h1 {
 }
 .icons div
 {
-	background-color:#0f1473;
+	background-color:#fff;
+    color: #0f1473;
 	height: 30px;
 	width: 30px;
 	border-radius:50%;
