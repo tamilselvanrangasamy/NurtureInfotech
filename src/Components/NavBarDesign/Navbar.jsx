@@ -177,7 +177,7 @@ function Navbar() {
             <Link className="nav-link" to="/about">
               About
             </Link>
-            <Link className="nav-link" to="/category">
+            <Link className="nav-link" to="/">
               Courses
             </Link>
             <Link className="nav-link" to="/category">
@@ -189,7 +189,7 @@ function Navbar() {
             <Link className="nav-link" to="/category">
               Gallery
             </Link>
-            <Link className="nav-link" to="/category">
+            <Link className="nav-link" to="/enquire">
               Enquiry
             </Link>
             <Link className="nav-link" to="/category">
