@@ -50,7 +50,7 @@ const About = () => {
                 <h1>Nurture InfoTech</h1>
               </div>
               <div>
-                <p>
+                <p className="About_para">
                   At NURTURE IT - Erode, We transform trainees into technocrats
                   by providing a state of art in class experience with real time
                   hands on programs. Nurture also emphasize on the soft skills
@@ -153,6 +153,67 @@ const About = () => {
               that transcends the bounds of conventional education.
             </p>
           </div>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h1 className="Why_Head">Why Choose Us?</h1>
+        </div>
+      </div>
+      <div className="Total_card1">
+        <div class="card shadow">
+          <h1 className="card_head">Training By Industrial Experts</h1>
+          <p className="card_para">
+            We ensure an exceptionally dynamic live online also as offline
+            training that can be utilized everywhere, with devoted colleagues
+            who assist us with arriving at our customer fulfillment
+            responsibility.{" "}
+          </p>
+        </div>
+        <div class="card shadow">
+          <h1 className="card_head">Training On Latest Technologies </h1>
+          <p className="card_para">
+            Our training sections have gained high quality, participation and
+            involvement through keep following the vibrant trend by implementing
+            latest technologies, tools and utilizing advanced software
+            technologies.{" "}
+          </p>
+        </div>
+        <div class="card shadow">
+          <h1 className="card_head">Professional Skill Enhancement Program </h1>
+          <p className="card_para">
+            We offer a wide assortment of self-improvement programs to students,
+            pointed toward developing significant job related delicate
+            abilities.{" "}
+          </p>
+        </div>
+      </div>
+      <div className="Total_card2">
+        <div class="card shadow">
+          <h1 className="card_head">Resume Preparation Assistance </h1>
+          <p className="card_para">
+            {" "}
+            With advancement and uniqueness, our group will assist you with
+            drafting a quality resume featuring your abilities and skill for
+            your vocation.
+          </p>
+        </div>
+        <div class="card shadow">
+          <h1 className="card_head">Mock Interviews </h1>
+          <p className="card_para">
+            We plan mock interviews for every trainee with the assistance of our
+            industry experienced mentors and the business proficient
+            organization to assist them with understanding their qualities and
+            shortcomings.{" "}
+          </p>
+        </div>
+        <div class="card shadow">
+          <h1 className="card_head">Real Time Assignments </h1>
+          <p className="card_para">
+            Our students are provided with live projects and assignments by our
+            master trainers with an inside and out execution and also make use
+            of various innovative technologies for creating them.{" "}
+          </p>
         </div>
       </div>
     </div>

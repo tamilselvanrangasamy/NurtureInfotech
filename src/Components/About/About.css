@@ -1,11 +1,14 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 .About_Main {
   /* font-family: "Josefin Sans", sans-serif; */
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: lighter;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .About {
   position: relative;
@@ -78,6 +81,12 @@
   font-size: 1.5rem;
 }
 
+.About_para {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
+}
+
 .btn-donate {
   --clr-font-main: hsla(0 0% 20% / 100);
   --btn-bg-1: hsla(194 100% 69% / 1);
@@ -121,18 +130,6 @@
   .btn-donate {
     transition: linear;
   }
-}
-
-.Aspiration_head {
-  margin-top: 5%;
-  text-align: center;
-  font-size: 1.5rem;
-}
-
-.Aspiration_card {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 5%;
 }
 
 .book {
@@ -300,6 +297,9 @@ p {
 .Mission_para {
   font-size: 1.5rem;
   margin-top: 4%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
 }
 
 .Vision {
@@ -325,31 +325,61 @@ p {
 .Vision_para {
   font-size: 1.5rem;
   margin-top: 2%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: justify;
 }
-@media all and (max-width: 540px) {
-  .About_head {
-    left: 20%;
-  }
-  .Aspiration_head {
-    margin-top: 13%;
-  }
-  .Mission_head {
-    font-size: 3.5rem;
-    margin-left: -20px;
-  }
-  .Vision_head {
-    font-size: 3.3rem;
-    text-align: center;
-    width: 100%;
-    padding-right: 40%;
-  }
-}
+
 /* @media all and (max-width: 625px) {
   .Mission_head {
     
     left: 190px;
   }
 } */
+
+.Why_Head {
+  text-align: center;
+  font-size: 3.3rem;
+  margin-top: 12%;
+}
+
+.Total_card1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.Total_card2 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 30%;
+  height: 300px;
+  background: white;
+  border-radius: 10px;
+  transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.shadow {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.card_head {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3%;
+}
+.card_para {
+  width: 90%;
+  text-align: justify;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-top: 8%;
+  margin-left: 5%;
+}
 @media all and (max-width: 768px) {
   .About_head {
     left: 40%;
@@ -411,11 +441,27 @@ p {
   .book {
     height: 300px;
   }
+  .Total_card1 {
+    flex-direction: column;
+    width: 200%;
+    gap: 30px;
+    margin-left: 20%;
+  }
+
+  .Total_card2 {
+    flex-direction: column;
+    width: 200%;
+    gap: 30px;
+    margin-left: 20%;
+  }
 }
 
 @media all and (max-width: 1200px) {
   .book {
     width: 30%;
+  }
+  .card {
+    height: 400px;
   }
 }
 
@@ -439,7 +485,33 @@ p {
   .cover_head {
     margin-top: 23%;
   }
+  .card {
+    height: 450px;
+  }
 }
+
+@media all and (max-width: 540px) {
+  .About_head {
+    left: 20%;
+  }
+  .Aspiration_head {
+    margin-top: 13%;
+  }
+  .Mission_head {
+    font-size: 3.5rem;
+    margin-left: -20px;
+  }
+  .Vision_head {
+    font-size: 3.3rem;
+    text-align: center;
+    width: 100%;
+    padding-right: 40%;
+  }
+  .Why_Head {
+    font-size: 2.7rem;
+  }
+}
+
 .about_icon {
   text-align: center;
   width: 100%;
