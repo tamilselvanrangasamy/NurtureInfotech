@@ -183,8 +183,8 @@ function Navbar() {
             <Link className="nav-link" to="/intern">
               Internship
             </Link>
-            <Link className="nav-link" to="/category">
-              JOB offers
+            <Link className="nav-link" to="/hire">
+              Hiring
             </Link>
             <Link className="nav-link" to="/category">
               Gallery
