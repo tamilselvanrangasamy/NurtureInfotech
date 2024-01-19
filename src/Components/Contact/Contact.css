@@ -8,6 +8,16 @@
     margin: 10px 15%;
 }
 
+.ContactDatas
+{
+    display: grid;
+    /* background-color: red; */
+    row-gap: 10px;
+    
+}
+
+
+
 .ContactAddress {}
 
 .ContactForm {
@@ -50,9 +60,11 @@
 
 .ContactNumber {
     margin-left: 20px;
-
 }
-
+.ContactNumber b,.ContactEmail b,.ContactLocation b
+{
+    font-size: 1.2rem;
+}
 
 .ContactEmail {
     display: flex;
@@ -117,6 +129,29 @@
     flex-direction: column;
 }
 
+.ContactForm h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.FormDesign input,textarea {
+    padding: 15px;
+    font-size: 1rem;
+    margin: 5px 10px;
+    border: 1px solid #c0bdbd;
+    border-radius: 5px;
+    outline: none;
+    color: #171515;
+    font-family: "Didact Gothic", sans-serif;
+    
+}
+
+.FormDesign input:focus {
+    outline: none;
+    font-family: "Didact Gothic", sans-serif;
+}
+
 
 /* Button Design */
 button {
@@ -133,7 +168,8 @@ button {
     overflow: hidden;
     transition: all 0.2s;
     cursor: pointer;
-    width: 200px;
+    width: 130px;
+    margin: 5px 10px;
 }
 
 button span {
@@ -172,27 +208,6 @@ button:active {
     to {
         transform: translateY(-0.1em);
     }
-}
-
-.ContactForm h1 {
-    text-align: center;
-    font-size: 2.2rem;
-    margin-bottom: 30px;
-}
-
-.FormDesign input {
-    padding: 15px;
-    font-size: 1rem;
-    margin: 5px 10px;
-    border: 1px solid #c0bdbd;
-    border-radius: 5px;
-    outline: none;
-    color: #171515;
-}
-
-.FormDesign input:focus {
-    outline: none;
-    font-family: "Didact Gothic", sans-serif;
 }
 
 @media all and (max-width:1400px) {

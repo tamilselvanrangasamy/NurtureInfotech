@@ -23,6 +23,7 @@ function Contact() {
             <h4>Contact</h4>
             <h1> Get in touch with us</h1>
             <div className='ContactDatas'>
+
               <div className='ContactCall'>
                 <div className='callLogo'>
                   <div className='callnumber'>
@@ -62,7 +63,7 @@ function Contact() {
                 <div className='LocationLogo'>
                   <div className='AddressLogo'>
                     <svg width="26" height="56" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M19.875 3.75H4.125A2.628 2.628 0 0 0 1.5 6.375v11.25a2.628 2.628 0 0 0 2.625 2.625h15.75a2.627 2.627 0 0 0 2.625-2.625V6.375a2.627 2.627 0 0 0-2.625-2.625Zm-.665 4.342-6.75 5.25a.75.75 0 0 1-.92 0l-6.75-5.25a.75.75 0 1 1 .92-1.184L12 11.8l6.29-4.892a.75.75 0 0 1 .92 1.184Z"></path>
+                      <path d="M12 1.5c-4.14 0-7.5 3.024-7.5 6.75 0 6 7.5 14.25 7.5 14.25s7.5-8.25 7.5-14.25c0-3.726-3.36-6.75-7.5-6.75ZM12 12a3 3 0 1 1 0-5.999A3 3 0 0 1 12 12Z"></path>
                     </svg>
                   </div>
                 </div>
@@ -82,9 +83,11 @@ function Contact() {
             <h1>We will Answer all your Questions</h1>
             <div className='FormDesign'>
 
-              <input type='text' onChange={handleChange} placeholder='Name' name='Name' value={ContactDatas.Name}></input>
-              <input type='text' onChange={handleChange} placeholder='PhoneNumber' name='PhoneNumber' value={ContactDatas.PhoneNumber}></input>
-              <input type='text' onChange={handleChange} placeholder='Message' name='Message' value={ContactDatas.Message}></input>
+              <input type='text' onChange={handleChange} autoComplete='off' placeholder='Name' name='Name' value={ContactDatas.Name}></input>
+              <input type='text' onChange={handleChange} autoComplete='off' placeholder='PhoneNumber' name='PhoneNumber' value={ContactDatas.PhoneNumber}></input>
+              <textarea  onChange={handleChange} autoComplete='off' placeholder='Message' name='Message' value={ContactDatas.Message}>
+
+              </textarea>
               <button>
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
