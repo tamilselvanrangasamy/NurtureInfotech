@@ -84,10 +84,12 @@ function Contact() {
             <div className='FormDesign'>
 
               <input type='text' onChange={handleChange} autoComplete='off' placeholder='Name' name='Name' value={ContactDatas.Name}></input>
+              <label></label>
               <input type='text' onChange={handleChange} autoComplete='off' placeholder='PhoneNumber' name='PhoneNumber' value={ContactDatas.PhoneNumber}></input>
+              <label></label>
               <textarea  onChange={handleChange} autoComplete='off' placeholder='Message' name='Message' value={ContactDatas.Message}>
-
               </textarea>
+              <label></label>
               <button>
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
@@ -113,6 +115,20 @@ function Contact() {
 
           </div>
 
+        </div>
+
+        <div className='MapDesign'>
+        <map>
+
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.877974411481!2d77.7155752750502!3d11.343622588841743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f3998053453%3A0x7ba00457d4d7cf91!2sNurture%20Infotech%20-%20Erode%20(Python%20%7C%20Java%20%7C%20Fullstack%20%7C%20Web%20Design%20%7C%20Graphic%20Design%20%7C%20Internship%20%7C%20Tally%20%7C%20Data%20Analytics)!5e0!3m2!1sen!2sin!4v1706511682273!5m2!1sen!2sin" 
+        width="100%" height="500" 
+        style={{"border":"1px solid black"}}
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </map>
         </div>
       </section>
 

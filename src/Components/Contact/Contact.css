@@ -4,7 +4,7 @@
 .ContactDetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 80vh;
+    min-height: auto;
     margin: 10px 15%;
 }
 
@@ -13,7 +13,6 @@
     display: grid;
     /* background-color: red; */
     row-gap: 10px;
-    
 }
 
 
@@ -64,6 +63,7 @@
 .ContactNumber b,.ContactEmail b,.ContactLocation b
 {
     font-size: 1.2rem;
+    
 }
 
 .ContactEmail {
@@ -198,6 +198,20 @@ button:hover span {
 
 button:active {
     transform: scale(0.95);
+}
+
+
+.MapDesign
+{
+    height: 600px;
+    margin: 60px 5% 10px;
+}
+
+label::before
+{
+    content: 'Error';
+    color: #fff;
+
 }
 
 @keyframes fly-1 {
