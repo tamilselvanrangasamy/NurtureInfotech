@@ -92,19 +92,19 @@ h1 {
 	transition: 400ms;
 }
 .facebk:hover {
-	background-color: rgb(44, 74, 222);
+	background-color: #316FF6;
 }
 .instag:hover {
-	background-color: rgb(237, 71, 198);
+	background-color: #bc2a8d;
 }
 .linked:hover {
-	background-color: #001eff;
+	background-color: #0077b5
 }
 .twitter:hover {
-	background-color: rgb(91, 214, 255);
+	background-color: #1DA1F2;
 }
 .wats:hover {
-	background-color: #075e54;
+	background-color: #25d366;
 }
 .icons div:hover
 {

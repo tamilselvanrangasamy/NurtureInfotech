@@ -57,7 +57,7 @@ function Navbar() {
           </svg>
           Mon-Sat 10.00 AM - 07.30 PM | Sun 10.00 AM - 5.00 PM
         </div>
-        <div className="icons">
+        <div className="icons" id="icons-size">
           <div className="facebk">
             <svg
               id="svg-icons"
