@@ -109,7 +109,7 @@ header {
 /* .navbar .nav-link:hover{
     color: #f6f60c;
 } */
-.nav-link:before,
+/* .nav-link:before,
 .nav-link:after {
     position: absolute;
     left: 0px;
@@ -129,7 +129,7 @@ header {
 .nav-link:after {
     bottom: -2px;
     transform: translateY(7px);
-}
+} */
 
 .nav-link:hover:before,
 .nav-link:hover:after {
@@ -202,7 +202,7 @@ header {
 
     .navbar .menu-items {
         padding-top: 100px;
-        background: #fff;
+        background: #0f1473;
         height: 100vh;
         max-width: 300px;
         transform: translate(-150%);
@@ -211,7 +211,7 @@ header {
         margin-left: -6%;
         padding-left: 2%;
         transition: transform 0.5s ease-in-out;
-        box-shadow: 2px 0px 10px 0px #eeeeee;
+        /* box-shadow: 2px 0px 10px 0px #eeeeee; */
         /* overflow: scroll; */
     }
 
@@ -219,11 +219,11 @@ header {
         margin-bottom: 1.8rem;
         font-size: 1.1rem;
         font-weight: 500;
-        color: #aaa;
+        color: #fff;
     }
 
     .navbar .menu-items .nav-link:hover {
-        color: purple;      
+        color: #aaa;      
     }
 
     .logo {
@@ -376,15 +376,18 @@ header {
 }
 .icons div
 {
-	background-color:#0f1473;
-	height: 30px;
-	width: 30px;
+	background-color:#fff;
+    color: #0f1473;
 	border-radius:50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding:7px;
 	margin: 3px;
+}
+#icons-size div {
+    height: 26px;
+    width: 26px;
 }
 #svg-icons
 {
@@ -393,20 +396,20 @@ header {
 	transition: 400ms;
 }
 .facebk:hover {
-	background-color: rgb(44, 74, 222);
-}
-.instag:hover {
-	background-color: rgb(237, 71, 198);
-}
-.linked:hover {
-	background-color: #001eff;
-}
-.twitter:hover {
-	background-color: rgb(91, 214, 255);
-}
-.wats:hover {
-	background-color: #075e54;
-}
+    background-color: #316FF6;
+  }
+  .instag:hover {
+    background-color: #bc2a8d;
+  }
+  .linked:hover {
+    background-color: #0077b5;
+  }
+  .twitter:hover {
+    background-color: #1DA1F2;
+  }
+  .wats:hover {
+    background-color: #25d366;
+  }
 .icons div:hover
 {
 	cursor:pointer;
