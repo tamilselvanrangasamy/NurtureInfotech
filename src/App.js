@@ -7,6 +7,7 @@ import Internship from "./Components/Internship/Internship";
 import Footer from "./Components/NavBarDesign/Footer/Footer";
 import Enquiryform from "./Components/Enquiry/Enquiryform";
 import Contact from "./Components/Contact/Contact";
+import Hireus from "./Components/HireUs/Hireus";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/intern" element={<Internship></Internship>}></Route>
           <Route path="/enquire" element={<Enquiryform></Enquiryform>}></Route>
           <Route path="/contact" element={<Contact></Contact>} ></Route>
+          <Route path="/hireus" element={<Hireus></Hireus>}></Route>
         </Routes>
 
         <Footer></Footer>

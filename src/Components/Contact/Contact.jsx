@@ -84,13 +84,13 @@ function Contact() {
             <div className='FormDesign'>
 
               <input type='text' onChange={handleChange} autoComplete='off' placeholder='Name' name='Name' value={ContactDatas.Name}></input>
-              <label></label>
+              <label className='label'></label>
               <input type='text' onChange={handleChange} autoComplete='off' placeholder='PhoneNumber' name='PhoneNumber' value={ContactDatas.PhoneNumber}></input>
-              <label></label>
+              <label className='label'></label>
               <textarea  onChange={handleChange} autoComplete='off' placeholder='Message' name='Message' value={ContactDatas.Message}>
               </textarea>
-              <label></label>
-              <button>
+              <label className='label'></label>
+              <button className='Contactbutton'>
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
                     <svg

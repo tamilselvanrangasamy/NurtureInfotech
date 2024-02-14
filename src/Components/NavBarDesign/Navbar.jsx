@@ -183,8 +183,8 @@ function Navbar() {
             <Link className="nav-link" to="/intern">
               Internship
             </Link>
-            <Link className="nav-link" to="/hire">
-              Hiring
+            <Link className="nav-link" to="/hireus">
+              Hire Us
             </Link>
             <Link className="nav-link" to="/category">
               Gallery
@@ -200,7 +200,7 @@ function Navbar() {
                         <Link className='nav-link' to='/testimonial'>Testimonial</Link>
                         <Link className='nav-link' to='/contact'>Contact</Link> */}
           </div>
-          <h1 className="logo tracking-in-expand">Nurture InfoTech</h1>
+          <h1 className="logo tracking-in-expand">Nurture Infotech</h1>
         </div>
       </nav>
     </div>
