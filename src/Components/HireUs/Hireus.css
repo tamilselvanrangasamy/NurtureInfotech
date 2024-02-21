@@ -165,6 +165,11 @@
 
     .hireButton {}
 
+    .TrainingModelDesign
+    {
+        margin: 33px 109px;
+    }
+
 }
 
 @media all and (max-width:1200px) {
