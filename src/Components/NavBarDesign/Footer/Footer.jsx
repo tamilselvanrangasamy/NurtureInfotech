@@ -18,6 +18,7 @@ function Footer() {
                         <li><Link>About</Link></li>
                         <li><Link>Course</Link></li>
                         <li><Link>Enquire</Link></li>
+                        <li><Link>Privacy Policy</Link></li>
                     </ul>
                 </div>
                 <div className='footerTrend'>

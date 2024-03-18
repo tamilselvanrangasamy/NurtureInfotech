@@ -186,7 +186,7 @@ function Navbar() {
             <Link className="nav-link" to="/hireus">
               Hire Us
             </Link>
-            <Link className="nav-link" to="/category">
+            <Link className="nav-link" to="/gallery">
               Gallery
             </Link>
             <Link className="nav-link" to="/enquire">
