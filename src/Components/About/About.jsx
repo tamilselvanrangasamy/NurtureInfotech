@@ -1,9 +1,6 @@
 import React, { useRef } from "react";
 import "./About.css";
-import Animation from "../Animation/Animation";
-import Mission from "../Animation/OurMission";
-import Vision from "../Animation/OurVision";
-import Philosophy from "../Animation/OurPhilosophy";
+
 
 const About = () => {
   const missionRef = useRef(null);
@@ -16,18 +13,14 @@ const About = () => {
 
   return (
     <div className="About_Main">
-      <div>
+      {/* <div>
         <div className="About">
           <div className="About_head">
             <h1>About Us</h1>
             <br />
             <h2>Home/About</h2>
           </div>
-          {/* <img
-            src="./assets/about_us_bg.jpg"
-            className="AboutImg_size"
-            alt="about"
-          /> */}
+         
         </div>
         <div className="About_Content">
           <div className="About_Info">
@@ -215,7 +208,7 @@ const About = () => {
             of various innovative technologies for creating them.{" "}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
