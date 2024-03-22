@@ -9,6 +9,7 @@ import Enquiryform from "./Components/Enquiry/Enquiryform";
 import Contact from "./Components/Contact/Contact";
 import Hireus from "./Components/HireUs/Hireus";
 import Gallery from "./Components/Gallery/Gallery";
+import Courses from "./Components/Courses/Courses";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<About></About>}></Route>
           <Route path="/intern" element={<Internship></Internship>}></Route>
           <Route path="/enquire" element={<Enquiryform></Enquiryform>}></Route>
+          <Route path="/courses" element={<Courses></Courses>}></Route>
           <Route path="/contact" element={<Contact></Contact>} ></Route>
           <Route path="/hireus" element={<Hireus></Hireus>}></Route>
           <Route path="/gallery" element={<Gallery></Gallery>}></Route>

@@ -177,7 +177,7 @@ function Navbar() {
             <Link className="nav-link" to="/about">
               About
             </Link>
-            <Link className="nav-link" to="/course">
+            <Link className="nav-link" to="/courses">
               Courses
             </Link>
             <Link className="nav-link" to="/intern">
