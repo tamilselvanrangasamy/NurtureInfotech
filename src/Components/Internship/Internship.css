@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Young+Serif&display=swap');
+.n{
+    /* border :1px solid red; */
+    display: flex;
+    
+}
+.internship-content{
+    /* border: 1px solid green; */
+    margin: auto ;
+    min-width:  70%;
+    max-width: 100%;
+    display: flex;
+    justify-content: start;
+    background-color: gold;
+    
+}
+.content{
+    /* mar */
+    /* height: 300px; */
+    width: 900px;
+    background-color: red;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 50px;
+    /* text-align: center; */
+}
+.content-heading{
+    font-size: 2rem;
+    /* color: rgb(228, 198, 29); */
+
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right,rgb(5, 5, 33),blue);
+    
+}
+.content-sub{
+    font-size: .8rem;
+
+}
+.internship-img{
+    position: absolute;
+    height: 700px;
+    width: 900px;
+    right: 0px;
+ /* background-color: red;   */
+}
+.img{
+    height:100%;
+    width: 100%;
+}
+
+.internship-img::after
+{
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 0px;
+    background-color: blue;
+}
+
+.internship-bgc{
+    /* border: 1px solid blue; */
+    height: 850px;
+    width: 100%;
+    /* background-color: #11009E; */
+}
+.bannerIntern
+{
+    position: absolute;
+    top: 795px;
+     width: 100%;
+    
+    height: 300px;
+    background: linear-gradient(45deg,rgb(1, 1, 47), rgb(8, 8, 215), #23a6d5, #23d2d5,#7623d5,#5e23d5,#2367d5,rgb(8, 8, 215),rgb(1, 1, 47));
+    /* background: linear-gradient(135deg,rgb(1, 1, 47),rgb(1, 1, 129),rgb(24, 24, 203),rgb(15, 76, 191),rgb(24, 24, 203),rgb(1, 1, 129),rgb(1, 1, 47)); */
+    /*  #ff8a00, #e52e71, #8a2be2, #8a2be2,#e52e71,#ff8a00 */
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+
+}
+.cards{
+    /* border: 1px solid red; */
+    margin: 100px 0px;
+}
+.c-content{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: -100px; */
+    /* background-color: red; */
+}
+
+.internPara
+{
+    /* background-color: saddlebrown; */
+    width: 800px;
+    height: auto;
+    text-indent: 70px;
+    font-weight: normal;
+    font-size: 1.4rem;
+    text-align: justify;
+    font-family: 'M PLUS 1', sans-serif;
+    line-height: 40px;
+    /* letter-spacing: 2px; */
+}
+.card-content > h1
+{
+    text-indent: 20px;
+}
+.card-content > h1::before
+{
+    content: '';
+    height: 45px;
+    width: 5px;
+    position: absolute;
+    left: 0px;
+    background-image: linear-gradient(to top,rgb(10, 10, 109) ,blue );
+    /* background-color: red; */
+
+}
+.card-content{
+    /* border: 1px solid red; */
+    /* background-color: rebeccapurple; */
+    height: 450px;
+    width: auto;
+    padding-top: 70px;
+    margin:50px 100px;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #ffedd3;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s ease;
+}
+
+.card-image{
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 550px;
+    margin: 50px 100px;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffc506;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  color: #1e1e2b;
+  transition-delay: .5s;
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #ffc506;
+  transition: .4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+
+.c-img1{
+    height: 450px;
+    width: 550px;
+}
+
+
+@media all and (max-width:1400px) {
+    .internship-img
+    {
+        height: 500px;
+        width: 600px;
+    }
+  
+  }
+  @media all and (max-width:1200px) {
+    .internship-img
+    {
+        height: 600px;
+        width: 700px;
+    }
+  }
+  
+  @media all and (max-width:1200px) {
+   
+  }
+  
+  @media all and (max-width:1024px) {
+  
+    
+  }
+  
+  @media all and (max-width:768px) {
+    .mainHome {
+      flex-direction: column;
+    }
+  
+    .mainHeader {
+      max-width: 100vw;
+    }
+  
+    .mainHeader>h1 {
+      font-size: 1.7rem;
+    }
+  
+    #banner_text {
+      font-size: 1.2rem;
+  
+    }
+  }

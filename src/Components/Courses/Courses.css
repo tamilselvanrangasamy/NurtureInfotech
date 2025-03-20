@@ -1,0 +1,9 @@
+.courses_banner
+{
+    height: 140px;
+    display: grid;
+    color: #fff;
+    font-size: 1.8rem;
+    padding-left: 100px;
+    background: linear-gradient(to right, rgb(3, 3, 75), rgb(15, 15, 154));
+}
