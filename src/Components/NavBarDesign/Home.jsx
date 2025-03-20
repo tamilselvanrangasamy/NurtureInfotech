@@ -3,6 +3,7 @@ import "./Home.css";
 import WhyChoose from "./WhyChoose/WhyChoose";
 import CourseBanner from "./Courses/CourseBanner";
 import CourseDetails from "./Courses/CourseDetails";
+import Company from "./Company/Company";
 
 function Home() {
   return (
@@ -29,6 +30,8 @@ function Home() {
       <CourseBanner></CourseBanner>
       <WhyChoose></WhyChoose>
       <CourseDetails></CourseDetails>
+
+      <Company></Company>
     </div>
   );
 }

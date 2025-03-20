@@ -9,8 +9,7 @@ function Gallery() {
   useEffect(() => {
     GsetImages(GalleryImages);
     setLoading(false);
-  }, []); // Adding an empty dependency array to ensure this effect runs only once on mount
-
+  }, []); 
   return (
     <div>
       <section className='Gallery'>
