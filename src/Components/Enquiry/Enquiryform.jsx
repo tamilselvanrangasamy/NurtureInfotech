@@ -35,7 +35,7 @@ function Enquiryform() {
       <div className="Enquiry">
         <div className="Enquiry_head">
           <div className="enquiry_bg_img">
-            <img src={banner} id="enquiry_bg_img"></img>
+            <img src={banner} id="enquiry_bg_img" alt="wrong"></img>
           </div>
           <div className="enquiry_bg_text">
             <h1 id="enquiry_bg_text">The <span id="bg_text">beautiful</span> thing about learning is that nobody <span id="bg_text">can take it away</span> from you</h1>
@@ -43,12 +43,11 @@ function Enquiryform() {
         </div>
       </div>
       <div className="form-container" >
-        <div className="form-content"
-          >
-            <h1 id="form_head" >
-              Who Can Join Us ?
-            </h1>
-          <div className="form-content-sub"> 
+        <div className="form-content">
+          <h1 id="form_head" >
+            Who Can Join Us ?
+          </h1>
+          <div className="form-content-sub">
             <div className="form-con">
               <div className="form-con-btn">
                 <button id="form-one">1</button>
@@ -99,11 +98,7 @@ function Enquiryform() {
             </div>
           </div>
         </div>
-        {/* <div className="form-main-box"></div>
-        <div className="form-main-box2"></div>
-        <div className="form-main-box3"></div>
-        <div className="form-main-box4"></div> */}
-        <div className="mainparent" data-aos="zoom-in" data-aos-duration="2000">
+        <div className="mainparent" data-aos="flip-left">
           <div className="subparent">
             {/* <div className="enquiry_logo"></div> */}
             <div className="enquiry_bg">
@@ -111,11 +106,11 @@ function Enquiryform() {
                 <h1 id="formHead1">Enquiry Form</h1>
               </div> */}
               {/* <div className="enquire_logo"></div> */}
-              <div className="form-main form-border" id="form-main-border" data-aos="zoom-in" data-aos-duration="2000">
+              <div className="form-main form-border" id="form-main-border" >
                 <div className="logoanimate">
                   <div className="enquiry_logo">
                     <div>
-                      <img src={logo} id="formlogo1" />
+                      <img src={logo} id="formlogo1" alt="wrong" />
                     </div>
                     <h1 id="formHead1">Let's Connect with us!</h1>
                   </div>
@@ -127,7 +122,7 @@ function Enquiryform() {
                   <span className="spanborder" id="s4"></span>
                 </div>
                 <form autoComplete="on" className="form-sub-content">
-                  <div>
+                  <div className="input-details">
                     <input
                       type="text"
                       name="name"
@@ -170,13 +165,13 @@ function Enquiryform() {
                     <div className="course-select">
                       <select id="course-select">
                         <option hidden>Qualification</option>
-                        <option>PG</option>
-                        <option>UG</option>
+                        <option>Post Graduate</option>
+                        <option>Under Graduate</option>
                         <option>Diploma</option>
                         <option>School</option>
                       </select>
-                    </div>{" "}
-                    <br />
+                    </div>
+                    {/* <br /> */}
                     <div className="course-select">
                       <select id="course-select">
                         <option hidden>Select Course</option>
@@ -184,6 +179,18 @@ function Enquiryform() {
                         <option>Java</option>
                         <option>MERN Stack</option>
                         <option>Tally</option>
+                        <option>Data Analytics</option>
+                        <option>Python FullStack</option>
+                        <option>Java FullStack</option>
+                        <option>Graphic Design</option>
+                        <option>SQL</option>
+                        <option>Testing</option>
+                        <option>CCNA</option>
+                        <option>Web Developement</option>
+                        <option>React Native</option>
+                        <option>AI & ML</option>
+                        <option>PHP</option>
+                        <option>MS Office</option>
                       </select>
                     </div>
                   </div>
@@ -222,7 +229,7 @@ function Enquiryform() {
             <div className="neoMain">
               <div className="neoimg_bg">
                 <div className="neoIcon">
-                  <img src={logo} id="formlogo" />
+                  <img src={logo} id="formlogo" alt="wrong" />
                 </div>
               </div>
               <div className="neoHead">
@@ -271,7 +278,7 @@ function Enquiryform() {
         </div>
         <div className="neoright">
           <div className="form-contents">
-            <div className="form-content-sub">
+            {/* <div className="form-content-sub">
               <h1 id="form_head" >
                 Who Can Join Us ?
               </h1>
@@ -323,30 +330,10 @@ function Enquiryform() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-      {/* <div class="id-card-tag"></div>
-      <div class="id-card-tag-strip"></div>
-      <div class="id-card-hook"></div>
-      <div class="id-card-holder">
-        <div class="id-card">
-          <div class="header">
-            <img></img>
-          </div>
-          <div class="photo">
-            <img src="https://i.imgur.com/5WmGvAG.png"></img>
-          </div>
-          <h2 id="id_name">EVANGELIN MONICA</h2>
-          <div class="qr-code">
-          </div>
-          <hr></hr>
-          <p id="id_para"><strong>Nurture Infotech</strong> Mettur Road </p>
-          <p id="id_para">Erode<strong>-638011</strong></p>
-          <p id="id_para">Ph:00000-000000</p>
-        </div>
-      </div> */}
     </div>
   );
 }
